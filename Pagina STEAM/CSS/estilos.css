@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration-style: solid;
+  list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+        font-weight: 450;
+        font-style: normal;
+       background-color: rgb(237, 240, 236);
+       background-size: cover;
+       min-height: 110vh;
+       align-items: center;
+}
+.titulo3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+       text-align: center;
+}
+
+*{margin:0;padding:0;}
+.menu {
+  background-color: #8fbd84; 
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 0px;
+}
+.menu ul li:last-child {
+  margin-right: 0;
+}
+.menu ul li a {
+  color: rgb(88, 87, 84);
+  text-decoration: none;
+  padding: 2px 4px;
+  display: block;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.menu ul li a:hover {
+  transform: translateY(3px); 
+  background-color: #a19d9d; 
+}
+ 
+section{
+  padding:2rem 9%
+}
+
+.hipotesis{
+  display: flex;
+  align-items : center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(40, 43, 51, 0.5), rgba(42, 46, 56, 0.966)),
+  url(../IMG/ecologi.jpg) no-repeat center
+   center fixed;
+  background-size: cover;
+  
+  
+}
+
+.contenido{
+   max-width: 50rem;
+   font-size:large;
+   color:rgba(211, 197, 175)
+
+}
+
+.hipotesis .contenido h3{
+    font-size: 6rem;
+    color:rgb(211, 197, 175);
+}
+
+.intro{
+  display: flex;
+  align-items : center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(40, 43, 51, 0.75), rgba(42, 46, 56, 0.75)),
+  url(../IMG/hipote.jpg) no-repeat center
+   center fixed;
+  background-size:cover;
+ }
+
+
+ 
+
+.intro h3{ 
+  font-size: 4rem;
+  color:rgb(211, 197, 175);}
+
+
+  .problema{
+    display:flex;
+    align-items : center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(40, 43, 51, 0.75), rgba(42, 46, 56, 0.75)),
+    url(../IMG/produ.jpg) no-repeat center
+     center fixed;
+    background-size:cover;
+    }
+
+    .problema h3{ 
+      font-size: 4rem;
+      color:rgb(211, 197, 175);}
+    
+      
+  .objetivos{
+    display:flex;
+    align-items : center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(40, 43, 51, 0.75), rgba(42, 46, 56, 0.75)),
+    url(../IMG/OIP\ \(3\).jpg) no-repeat center
+     center fixed;
+    background-size:cover;
+    }
+
+
+    .objetivos h3{ 
+      font-size: 4rem;
+      color:rgb(211, 197, 175);}
+
+      .productos{
+        display:flex;
+        align-items : center;
+        min-height: 100vh;
+        background: linear-gradient(rgba(40, 43, 51, 0.75), rgba(42, 46, 56, 0.75)),
+        url(../IMG/plane.jpg) no-repeat center
+         center fixed;
+        background-size:cover;
+        }
+
